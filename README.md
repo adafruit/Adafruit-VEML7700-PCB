@@ -1,7 +1,10 @@
 ## Adafruit VEML7700 Lux Sensor PCB
 
+
+<a href="http://www.adafruit.com/products/5378"><img src="assets/5378.jpg?raw=true" width="500px"><br/>
+Click here to purchase the STEMMA QT version from the Adafruit shop</a>
 <a href="http://www.adafruit.com/products/4162"><img src="assets/4162.jpg?raw=true" width="500px"><br/>
-Click here to purchase one from the Adafruit shop</a>
+Click here to purchase the original version from the Adafruit shop</a>
 
 PCB files for the Adafruit VEML7700 Lux Sensor. Format is EagleCAD schematic and board layout
 * https://www.adafruit.com/product/4162
@@ -13,6 +16,8 @@ Vishay has a lot of light sensors out there, and this is a nice simple lux senso
 The sensor has 16-bit dynamic range for ambient light detection from 0 lux to about 120 klux with resolution down to 0.0036 lx/ct, with software-adjustable gain and integration times.
 
 Interfacing is easy - this sensor uses plain, universal I2C. We put this sensor on a breakout board with a 3.3V regulator and logic level shifter so you can use it with 3.3V or 5V power/logic microcontrollers. [We have written libraries for Arduino (C/C++)](https://github.com/adafruit/Adafruit_VEML7700) as well as [CircuitPython (Python 3)]https://github.com/adafruit/Adafruit_CircuitPython_VEML7700) so you can use this sensor with just about any kind of device, even a Raspberry Pi!
+
+As with all Adafruit breakouts, we've done the work to make this handy light sensor super easy to use. We've put it on a breakout board with the required support circuitry and connectors to make it easy to work with. Since I2C is supported, we've added SparkFun Qwiic compatible STEMMA QT JST SH connectors that allow you to get going without needing to solder. Just use a STEMMA QT adapter cable, plug it into your favorite microcontroller or Blinka supported SBC and you're ready to rock! QT Cable is not included, but we have a variety in the shop.  
 
 This is Kattni's first PCB design for Adafruit, it's even signed on the back!?
 
